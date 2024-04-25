@@ -26,7 +26,7 @@
             "time_format": "15:04:05"
           },
           "style": "diamond",
-          "template": " \u2665 {{ .CurrentDate | date .Format }} ",
+          "template": " {{ .CurrentDate | date .Format }} ",
           "trailing_diamond": "<transparent,#FEF5ED>\ue0b2</>",
           "type": "time"
         },
@@ -114,7 +114,7 @@
           "type": "path"
         },
         {
-          "foreground": "#516BEB",
+          "foreground": "#FEF5ED",
           "style": "plain",
           "template": "\u279c ",
           "type": "text"
